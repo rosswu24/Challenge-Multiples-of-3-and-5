@@ -5,8 +5,15 @@
  */
 exports.sumOfAMultiple = function( n ) {
   var sum = 0;
+  for(var i =0; n<0; i++){
+        
 
   // do your work here
+  if(n%3 === 0 || n%5 === 0){
+    sum+=i;
+}
+
+}
 
   return sum;
 };
